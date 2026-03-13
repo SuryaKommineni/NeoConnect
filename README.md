@@ -50,3 +50,18 @@ npm run dev
 - The app runs with seeded in-memory demo data so it works immediately during local evaluation.
 - If `MONGODB_URI` is provided, Mongoose connects on startup, giving you a ready path for persistence expansion.
 - Uploaded files are stored in `public/uploads`.
+
+## Deploying on Render
+
+This repo includes a `render.yaml` blueprint for Render because the app runs on a custom Express server in `server.ts`.
+
+1. Push the repo to GitHub.
+2. In Render, create a new Blueprint and select this repository.
+3. Set the required environment variables:
+   - `MONGODB_URI`
+   - `JWT_SECRET`
+4. Deploy the generated web service.
+
+Build command: `npm install && npm run build`
+
+Start command: `npm start`

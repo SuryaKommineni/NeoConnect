@@ -12,7 +12,7 @@ import { repo } from "@/lib/server-store";
 import type { AuthPayload, Role } from "@/lib/types";
 
 const dev = process.env.NODE_ENV !== "production";
-const hostname = "localhost";
+const hostname = process.env.HOSTNAME || "0.0.0.0";
 const port = Number(process.env.PORT || 3000);
 const app = next({ dev, hostname, port });
 const handle = app.getRequestHandler();
