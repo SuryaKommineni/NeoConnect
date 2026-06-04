@@ -2,6 +2,10 @@
 
 NeoConnect is a full-stack staff feedback and complaint management platform built to match the hackathon brief in `Use Case Full Stack.pdf`.
 
+## 🌐 Live Demo
+
+🔗 **[NeoConnect Live Demo](https://neoconnect-l7kz.onrender.com)**
+
 ## What is included
 
 - Staff submission form with anonymous toggle, file uploads, and tracking IDs in `NEO-YYYY-001` format
@@ -10,7 +14,7 @@ NeoConnect is a full-stack staff feedback and complaint management platform buil
 - Public hub with quarterly digest, impact tracking, and searchable meeting-minutes archive
 - Polling system with one vote per user and live chart results
 - Analytics dashboard with department, status, and category counts plus hotspot flagging
-
+  
 ## Tech stack
 
 - Next.js + React + TypeScript
